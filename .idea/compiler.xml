@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ocean-rpc-server" />
+        <module name="ocean-rpc-common" />
+        <module name="ocean-rpc-test" />
+        <module name="ocean-rpc-client" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ocean-rpc-client" target="1.5" />
+      <module name="ocean-rpc-common" target="11" />
+      <module name="ocean-rpc-server" target="11" />
+      <module name="ocean-rpc-test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
